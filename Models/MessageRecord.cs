@@ -7,6 +7,7 @@
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
+            // Changes Sprint 1 --As a message reading user, I want to view a list of rooms that represent conversations -- Omar Sami
         }
 
         public int RoomID
@@ -25,6 +26,7 @@
         {
             get;
             private set;
+            // Changes Sprint 1 --As a message reading user, I want to view a list of rooms that represent conversations -- Omar Sami
         }
     }
 }

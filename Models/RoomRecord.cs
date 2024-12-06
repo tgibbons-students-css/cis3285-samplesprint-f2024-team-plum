@@ -6,6 +6,7 @@
         {
             Name = name;
             RoomId1 = roomId;
+            // Changes Sprint 1 --As a message posting user, I want to create rooms for categorizing conversations -- Omar Sami
         }
 
         int RoomId;

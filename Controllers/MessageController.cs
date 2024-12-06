@@ -15,12 +15,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Details(int id)
         {
             return View();
+            // Changes Sprint 1 --As a message reading user, I want to view a list of rooms that represent conversations -- Omar Sami
         }
 
         // GET: MessageController/Create
         public ActionResult Create()
         {
             return View();
+            // Changes Sprint 1 --As a message reading user, I want to view a list of rooms that represent conversations -- Omar Sami
         }
 
         // POST: MessageController/Create
@@ -31,6 +33,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
             try
             {
                 return RedirectToAction(nameof(Index));
+                // Changes Sprint 1 --As a message reading user, I want to view a list of rooms that represent conversations -- Omar Sami
+
             }
             catch
             {

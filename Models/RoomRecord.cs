@@ -17,5 +17,7 @@
             get;
             private set;
         }
+        // Changes Sprint 1 -- Add userLimit property to specify the maximum number of users allowed in the room -- Omar Sami
+
     }
 }
